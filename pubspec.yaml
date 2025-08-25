@@ -57,4 +57,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   
-  # 📁 Assets
+  # 📁 Assets (I'll create these folders later)
+  assets:
+    - assets/images/
+    - assets/icons/
