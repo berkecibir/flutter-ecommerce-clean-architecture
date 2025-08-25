@@ -1,0 +1,60 @@
+name: flutter_e_commerce_app
+description: "A professional e-commerce app with Clean Architecture, BLoC state management, and advanced features"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 🏗️ State Management & Architecture
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  
+  # 🔧 Dependency Injection
+  get_it: ^7.6.4
+  injectable: ^2.3.2
+  
+  # 🌐 Network & Data
+  dio: ^5.4.0
+  retrofit: ^4.0.3
+  json_annotation: ^4.8.1
+  dartz: ^0.10.1
+  
+  # 💾 Local Storage
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # 🎨 UI & Design
+  cached_network_image: ^3.3.0
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  animations: ^2.0.8
+  shimmer: ^3.0.0
+  
+  # 🛠️ Utils
+  connectivity_plus: ^5.0.2
+  internet_connection_checker: ^1.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+  # 🧪 Testing & Code Generation
+  mockito: ^5.4.4
+  bloc_test: ^9.1.5
+  build_runner: ^2.4.7
+  injectable_generator: ^2.4.1
+  retrofit_generator: ^8.0.6
+  json_serializable: ^6.7.1
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  
+  # 📁 Assets
