@@ -21,7 +21,7 @@ dependencies:
   # 🌐 Network & Data
   dio: ^5.4.0
   retrofit: ^4.0.3
-  json_annotation: ^4.8.1
+  json_annotation: ^4.9.0
   dartz: ^0.10.1
   
   # 💾 Local Storage
